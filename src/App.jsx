@@ -1,8 +1,6 @@
 // Styles
 import './App.css';
 
-import { ToastContainer } from 'react-toastify';
-
 import React from 'react'; // Add import statement for React
 
 // Dependencies
@@ -29,7 +27,6 @@ function App() {
         <Route path="/resume" element={<ResumePage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
-      <ToastContainer />
     </>
   );
 }
