@@ -2,13 +2,13 @@ import '../css/HomePage.css';
 
 function HomePage() {
     return (
-        <div id='body' className=''>
-            <div id='content' className=''>
-                <div className='col-auto self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center py-[0px] px-80'>
-                    <div className='md:flex-1 gap-[10px]'>
+        <div id='content' className=''>
+            <div className='px-80'>
+                <div className='flex md:flex-1 gap-[10px]'>
+                    <div className='w-[700px] h-[237px]'>
                         <h1 className='font-black text-left text-[2.5em] sm:text-[3em] md:text-[3.5em] lg:text-[4em]'>Ian Jeremy Guani,</h1>
                         <p className='text-center md:text-left text-[1.2em] font-extralight'>
-                            This is text to talk about myself and quickly sell myself to anyone viewing the page.
+                            Hey! I am currently a 1st year Applied Computer Science student at British Columbia Institute of Technology, interested in computer systems and network security.
                         </p>
                         <div className='justify-center md:justify-start py-[15px] px-[0px] gap-2'>
                             <a href="https://github.com/">
@@ -22,6 +22,9 @@ function HomePage() {
                                 </svg>
                             </a>
                         </div>
+                    </div>
+                    <div className='flex justify-center items-center w-[338px] h-[189px]'>
+                        <button className='w-[130px] h-[82px] bg-black text-white'>Resume</button>
                     </div>
                 </div>
             </div>
