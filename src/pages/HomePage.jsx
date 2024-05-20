@@ -1,6 +1,13 @@
 import '../css/HomePage.css';
+import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
+    const navigate = useNavigate()
+
+    const goToResume = () => {
+        navigate('/resume')
+    }
+
     return (
         <div id='content' className='flex flex-col h-[93%] justify-center items-center'>
             <div className='w-[700px] h-[237px]'>
@@ -21,8 +28,8 @@ function HomePage() {
                     </a>
                 </div>
             </div>
-            <div className='flex justify-center items-start w-[338px] h-[189px]'>
-                <button className='w-[130px] h-[82px] bg-yellow-300 text-black'>Resume</button>
+            <div className='flex justify-center items-start'>
+                <button className='w-[170px] h-[82px] bg-yellow-300 text-black rounded-md' onClick={goToResume}>Resume</button>
             </div>
         </div>
 
