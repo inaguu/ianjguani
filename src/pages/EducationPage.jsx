@@ -1,4 +1,3 @@
-import '../css/HomePage.css';
 
 function EducationPage() {
     return (

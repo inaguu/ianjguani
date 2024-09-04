@@ -1,11 +1,10 @@
-import '../css/HomePage.css';
 import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
     const navigate = useNavigate()
 
-    const goToResume = () => {
-        navigate('/resume')
+    const goToProjects = () => {
+        navigate('/projects')
     }
 
     return (
@@ -13,7 +12,7 @@ function HomePage() {
             <div className='w-[700px] h-[237px]'>
                 <h1 className='font-black text-left text-[2.5em] sm:text-[3em] md:text-[3.5em] lg:text-[4em]'>Ian Jeremy Guani,</h1>
                 <p className='text-center md:text-left text-[1.2em] font-extralight'>
-                    Hey! I am currently a 1st year Applied Computer Science student at British Columbia Institute of Technology, interested in computer systems and network security.
+                    Applied Computer Science student at British Columbia Institute of Technology
                 </p>
                 <div className='justify-center md:justify-start py-[15px] px-[0px] gap-2'>
                     <a href="https://github.com/">
@@ -29,7 +28,7 @@ function HomePage() {
                 </div>
             </div>
             <div className='flex justify-center items-start'>
-                <button className='w-[170px] h-[82px] bg-yellow-300 text-black rounded-md' onClick={goToResume}>Resume</button>
+                <button className='w-[170px] h-[82px] bg-yellow-300 text-black rounded-md' onClick={goToProjects}>View Projects</button>
             </div>
         </div>
 

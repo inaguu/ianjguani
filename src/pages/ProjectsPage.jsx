@@ -25,8 +25,12 @@ function ProjectPage() {
                                 </div>
 
                                 <p class="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">------------</p>
+                                <h6 className="font-bold text-gray-800">Info:</h6>
                                 <p class="mb-2 text-gray-600">A simple web application for BCIT's Medical Radiography program to randomly assign students to hospitals
-                                    for their practicum semesters. It uses EJs, Javascript, and CSS which are the basic languages when making a website.</p>
+                                    for their practicum semesters.</p>
+
+                                <h6 className="font-bold text-gray-800">Tools:</h6>
+                                <p class="mb-2 text-gray-600">HTML, EJs, JavaScript, Tailwind, MySQL, Node.js</p>
                             </div>
                         </div>
                     </div>
@@ -49,8 +53,11 @@ function ProjectPage() {
                                 </div>
 
                                 <p class="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">------------</p>
-                                <p class="mb-2 text-gray-600">A personal portfolio website to display my skills and projects. It is built on the React framework using JSX and
-                                    Tailwind to design the website itself.</p>
+                                <h6 className="font-bold text-gray-800">Info:</h6>
+                                <p class="mb-2 text-gray-600">A personal portfolio website to display my skills and projects.</p>
+
+                                <h6 className="font-bold text-gray-800">Tools:</h6>
+                                <p class="mb-2 text-gray-600">React, Tailwind, JSX, Node.js</p>
                             </div>
                         </div>
                     </div>
@@ -72,8 +79,11 @@ function ProjectPage() {
                                     <h6 className="my-2 ml-3 font-bold text-gray-800">Developer</h6>
                                 </div>
                                 <p class="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">------------</p>
-                                <p class="mb-2 text-gray-600">A simple web application that utilizes the features of three seperate well-known websites. It combines the websites called
-                                    Imgur, Bit.ly, and Pastebin to simplify the needs of users who frequently use all three. </p>
+                                <h6 className="font-bold text-gray-800">Info:</h6>
+                                <p class="mb-2 text-gray-600">A simple web application that combines the features of Imgur, Bit.ly, and Pastebin.</p>
+
+                                <h6 className="font-bold text-gray-800">Info:</h6>
+                                <p class="mb-2 text-gray-600">HTML, CSS, EJs, MySQL, Node.js</p>
                             </div>
                         </div>
                     </div>
@@ -93,8 +103,11 @@ function ProjectPage() {
                                     <h6 className="my-2 ml-3 font-bold text-gray-800">Developer</h6>
                                 </div>
                                 <p class="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">------------</p>
-                                <p class="mb-2 text-gray-600">A security hacker is someone who explores methods for breaching
-                                    defenses and exploiting weaknesses in a computer system or network.</p>
+                                <h6 className="font-bold text-gray-800">Info:</h6>
+                                <p class="mb-2 text-gray-600">A damage report web application that centralizes BCIT's current damage report system.</p>
+
+                                <h6 className="font-bold text-gray-800">Info:</h6>
+                                <p class="mb-2 text-gray-600">React, JSX, Node.js, Cypress, MySQL</p>
                             </div>
                         </div>
                     </div>
