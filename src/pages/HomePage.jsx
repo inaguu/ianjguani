@@ -17,8 +17,11 @@ function HomePage() {
 
                 <br></br>
 
+                <a href="malito: ianjguani@gmail.com" className='text-center md:text-left text-[1.2em] font-semibold text-blue-700 underline'>
+                    ianjguani@gmail.com
+                </a>
                 <p className='text-center md:text-left text-[1.2em] font-semibold'>
-                    ianjguani@gmail.com <br></br> (778)-895-3635
+                    (778)-895-3635
                 </p>
 
                 <div className='justify-center md:justify-start py-[15px] px-[0px] gap-2'>
