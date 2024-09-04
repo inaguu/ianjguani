@@ -23,9 +23,9 @@ export default function Navbar() {
                             <li>
                                 <a href="/skills" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">About</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="/contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
-                            </li>
+                            </li> */}
                             {/* <li>
                                 <a href="/resume" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Resume</a>
                             </li>

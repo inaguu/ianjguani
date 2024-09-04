@@ -111,7 +111,7 @@ function ProjectPage() {
                             </div>
                         </div>
                     </div>
-                    <div class="w-full sm:w-1/2">
+                    {/* <div class="w-full sm:w-1/2">
                         <div class="relative h-full ml-0 md:mr-10">
                             <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
                             <div class="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
@@ -131,7 +131,7 @@ function ProjectPage() {
                                     that eliminate a large amount of manual work and accelerate the development process.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
